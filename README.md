@@ -4,3 +4,5 @@ This repository provides the TREC evaluation results for the [Befchina](https://
 
 
 All metrics were computed with the latest [TREC scripts](https://trec.nist.gov/trec_eval/). For BioCADDIE in addition we computed the [inferred measures](https://trec.nist.gov/data/clinical/sample_eval.pl).
+
+We also provide some metrics for object properties of selected ontologies which are used in the NLP pipelines for Entity Linking (see code repository). With a sparql query we obtained all object properties and numbers of entities using it in the respective ontology.
